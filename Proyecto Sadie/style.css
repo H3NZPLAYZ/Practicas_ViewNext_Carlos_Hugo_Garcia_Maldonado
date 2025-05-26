@@ -1,0 +1,276 @@
+/* COLORS VARS */
+
+:root {
+    --my-red: #ee0606;
+    --my-orange: #ff7000;
+    --my-purple: #6a00bd;
+    --my-blue: #3b6aff;
+    --my-yellow: #ebe707;
+    --my-light-blue: #7cf0ff;
+    --my-light-green: #36ff04;
+    --my-magenta: #ff4d6d;
+    --my-brown: #704a33;
+
+    --my-base-white: #f2f2f2;
+    --my-base-white-dark: #797979;
+
+    --my-red-dark: #770303;
+    --my-orange-dark: #803900;
+    --my-purple-dark: #35005e;
+    --my-blue-dark: #1d357f;
+    --my-yellow-dark: #757403;
+    --my-light-blue-dark: #3e7880;
+    --my-light-green-dark: #1b8002;
+    --my-magenta-dark: #802736;
+    --my-brown-dark: #3a251a;
+
+    --my-pinky:#ffc0cb;
+    --my-poem-background:#fffddf;
+    --my-main-background:#ffe5e5;
+    --my-sea-foam-white:#f5f5f5a1;
+    --my-pure-white:#ffffff;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--my-main-background) !important;
+}
+
+#banner-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBhaXNhamV8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%
+
+}   
+
+hr {
+  border: 0 !important;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#main-container {
+    background-color: var(--my-main-background) !important;
+    margin: 0 auto !important;
+    /* width: 70% !important; */
+    padding: 10% !important;
+}
+
+/* Fix Poema P */
+.poema {
+    white-space: pre-line;
+    
+}
+
+/* Poema Section Title */
+.poemaTitle {
+    color: var(--my-magenta);
+    font-family: "Dancing Script", cursive;
+    font-size: 6rem;
+}
+
+.vertically-centered-flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Makes Poem Imgs "Fluid"*/
+.box-poema > div > img {
+    border-radius: 8px;
+}
+
+
+
+#banner-title {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-style: italic;
+    font-size: 6em;
+    color: var(--my-sea-foam-white);
+    
+    
+}
+
+.myBtn {
+    /* background-color: var(--my-sea-foam-white);
+    border-radius: 100%; */
+    margin: 0 auto;
+    width: min-content;
+    fill: var(--my-magenta) !important;
+    
+}
+
+#floatingBtn{
+  position: fixed !important;
+  bottom: 5vh;
+  right: 5vw;
+  z-index: 5;
+  
+}
+
+.wave {
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  .wave span {
+    display: inline-block;
+    animation: wave-animation 1.5s infinite;
+  }
+  
+  @keyframes wave-animation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Tamaño de fuente adaptativo */
+  @media (max-width: 1200px) {
+    .wave span {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .wave span {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .wave span {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wave span {
+      font-size: 1.5rem;
+    }
+  }
+
+
+.box-poema {
+    background-color: var(--my-poem-background);
+    border-radius: 10px;
+    padding: 0;
+    border-style: solid;
+    color: var(--my-pinky);
+    margin: 0;
+    align-items: center;
+}
+
+.innerBox {
+    padding: 5%;
+    
+    
+}
+
+/** Gifts Styles **/
+
+.color0 {
+  background-color: var(--my-red) !important;
+  color: var(--my-red-dark) !important;
+}
+.color1 {
+  background-color: var(--my-orange) !important;
+  color: var(--my-orange-dark) !important;
+}
+.color2 {
+  background-color: var(--my-purple) !important;
+  color: var(--my-purple-dark) !important;
+}
+.color3 {
+  background-color: var(--my-blue) !important;
+  color: var(--my-blue) !important;
+}
+.color4 {
+  background-color: var(--my-yellow) !important;
+  color: var(--my-yellow-dark) !important;
+}
+.color5 {
+  background-color: var(--my-light-blue) !important;
+  color: var(--my-light-blue-dark) !important;
+}
+.color6 {
+  background-color: var(--my-light-green) !important;
+  color: var(--my-light-green-dark) !important;
+}
+.color7 {
+  background-color: var(--my-magenta) !important;
+  color: var(--my-magenta-dark) !important;
+}
+.color8 {
+  background-color: var(--my-brown) !important;
+  color: var(--my-brown-dark) !important;
+}
+
+
+.box-gift {
+    background-color: var(--my-base-white);
+    border-radius: 12px;
+    padding: 0 !important;
+    border-style: solid;
+    color: var(--my-base-white-dark);
+    margin: 0;
+    display: flex !important;
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+
+.box-gift.hide-Gift {
+    opacity: 0;
+}
+
+
+.x-line, .y-line {
+    position: absolute;
+    background-color: var(--my-pure-white);
+    transition: opacity 0.5s ease;
+}
+
+.x-line {
+    width: 100%;
+    height: 8px;
+    top: 50%;
+    left: 0;
+}
+
+.y-line {
+    height: 100%;
+    width: 0px !important;
+    top: 0;
+    padding: 4px !important;
+}
+
+.regalo {
+    position: absolute;
+    font-family: "Noto Color Emoji", sans-serif;
+    font-size: 400%;
+    animation: shake 3s infinite;
+}
+
+@keyframes shake {
+    10% { transform: scale(1.10) translateY(-15px);}
+    20% { transform: scale(1.20) translateY(-15px) rotate(8deg);}
+    30% { transform: scale(1.20) translateY(-15px) rotate(-8deg);}
+    40% { transform: scale(1.20) translateY(-15px) rotate(8deg);}
+    50% { transform: none;} 
+}
+
+
