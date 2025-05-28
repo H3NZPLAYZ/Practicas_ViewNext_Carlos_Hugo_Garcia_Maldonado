@@ -1,0 +1,15 @@
+Buenas PEM, este trabajo me ha hecho reflejar los conocimientos de html, css y javascript que tengo, voy a señalar la
+pata de cabra rota de este trabajo, si bien me ha pillado una semana un poco mala, he hecho un apaño para pdoer entregar algo medianamente
+funcional y podría hacerlo mejor y más optimo pero espero que el proximo trabajo pueda hacerlo mejor desde 0
+
+Para el ahorcado he realizado su version html, las palabras son de 4 a 7 letras por la limitación del sprite pero la cosa seria modificarlo
+
+Al ver que no me habia costado mas que un dia decidí aventurarme a la sopa de letras, ahí si use la IA para poder manejarme con el array bidimensional,
+resultados decentes para HTML pero decidi rehacerlo pero para consola para poder aprender más, usando la consola del navegador ya que tampoco llegué a usar node
+en conclusion funciona, pero el marcado de las palabras he estado debugando y no he conseguido resolver los errores que me lanzaba por lo cual, se puede ganar
+pero no se marcan
+
+Tambien quiero pedir perdon , por el uso de el inglés y español sin un orden claro, normalmente uso el inglés para el código , pero tanto en imagenes, texto y bueno 
+en el segundo minijuego en el que recurrí a la IA empecé a mezclarlos
+
+Cualquier pregunta teneís mi Teams, espero poder realizar un trabajo mejor para poder demostrar más mis fuertes

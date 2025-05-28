@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Sopa de Letras</title>
+</head>
+<body>
+    <a title="Go Back" href="../index.html"><img id="back" src="https://icons.veryicon.com/png/System/Longhorn%20R2/Back%20Button.png" alt="Back_Button"></a> 
+    <header>
+        <h1>Sopa de Letras</h1>
+    </header>
+    <main class="">
+        <div class="row">
+            <div class="col">
+                <div id="sopa-letras"></div>
+            </div>
+            <div class="col">
+                <h3>Palabras encontradas</h3>
+                <ul id="lista"></ul>
+                <h3>Palabras restantes</h3>
+                <p id="remaining"></p>
+            </div>
+            <div class="col">
+                <input id="input" type="text" placeholder="Escribe una palabra">
+                <button id="check">Comprobar</button>
+                <p id="msg"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="sopa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>    
+</body>
+</html>

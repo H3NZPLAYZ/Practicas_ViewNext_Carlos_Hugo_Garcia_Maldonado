@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+#back {
+    width: 7%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#sprite {
+    width: 282px;
+    height: 345px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #cff0f8;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+#play {
+    text-align: center;
+    background-color: #fff;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+
+
+#guess{
+    height: 3em;
+}
+
+#guess span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+#letters{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+#letters button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+    background-color: #fff;
+    border-color: aliceblue;
+    border-radius: 5px;
+}

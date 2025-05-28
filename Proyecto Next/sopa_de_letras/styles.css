@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+#back {
+    width: 7%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #cff0f8;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+}
